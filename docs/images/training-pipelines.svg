@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="590" viewBox="0 0 1120 590" role="img" aria-label="Training pipelines">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#82d8cc"/></marker></defs>
+<rect width="100%" height="100%" fill="#0b1020"/>
+<text x="40" y="49" fill="#f8fafc" font-family="Arial,sans-serif" font-size="27" font-weight="700">Training pipelines</text>
+<text x="40" y="76" fill="#a5b4c8" font-family="Arial,sans-serif" font-size="14">One core Pixel Transformer · independent research extensions</text>
+<rect x="40" y="118" width="220" height="78" rx="14" fill="#18263b" stroke="#517397" stroke-width="2"/>
+<text x="150.0" y="149" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Licensed dataset</text>
+<text x="150.0" y="173" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">images + labels + rights</text>
+<rect x="315" y="118" width="220" height="78" rx="14" fill="#18263b" stroke="#517397" stroke-width="2"/>
+<text x="425.0" y="149" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Palette tokenizer</text>
+<text x="425.0" y="173" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">RGBA → 33 output classes</text>
+<rect x="590" y="118" width="220" height="78" rx="14" fill="#18263b" stroke="#517397" stroke-width="2"/>
+<text x="700.0" y="149" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Random masking</text>
+<text x="700.0" y="173" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">masked pixel tokens</text>
+<rect x="865" y="118" width="215" height="78" rx="14" fill="#183a42" stroke="#55c5b3" stroke-width="2"/>
+<text x="972.5" y="149" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Base training</text>
+<text x="972.5" y="173" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">masked cross-entropy</text>
+<path d="M 260 157 L 315 157" fill="none" stroke="#82d8cc" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 535 157 L 590 157" fill="none" stroke="#82d8cc" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 810 157 L 865 157" fill="none" stroke="#82d8cc" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="40" y="103" fill="#82d8cc" font-family="Arial,sans-serif" font-size="16" font-weight="700">A · V1 required</text>
+<path d="M 973 196 L 973 240 L 545 240" fill="none" stroke="#82d8cc" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="385" y="252" width="320" height="68" rx="14" fill="#22423d" stroke="#55c5b3" stroke-width="2"/>
+<text x="545.0" y="283" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Core Pixel Transformer</text>
+<text x="545.0" y="307" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">reusable checkpoint</text>
+<text x="40" y="374" fill="#c4b5fd" font-family="Arial,sans-serif" font-size="16" font-weight="700">B · Later research (optional)</text>
+<rect x="40" y="390" width="305" height="78" rx="14" fill="#2b2645" stroke="#a78bfa" stroke-width="2"/>
+<text x="192.5" y="421" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Licensed diffusion teacher</text>
+<text x="192.5" y="445" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">verify output / distillation rights</text>
+<rect x="395" y="390" width="310" height="78" rx="14" fill="#2b2645" stroke="#a78bfa" stroke-width="2"/>
+<text x="550.0" y="421" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Distillation experiment</text>
+<text x="550.0" y="445" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">train same core model</text>
+<path d="M 345 429 L 395 429" fill="none" stroke="#82d8cc" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="740" y="374" fill="#fda4af" font-family="Arial,sans-serif" font-size="16" font-weight="700">C · Later research (optional)</text>
+<rect x="745" y="390" width="335" height="78" rx="14" fill="#472536" stroke="#fb7185" stroke-width="2"/>
+<text x="912.5" y="421" text-anchor="middle" fill="#f8fafc" font-family="Arial,sans-serif" font-size="17" font-weight="700">Conditional CNN discriminator</text>
+<text x="912.5" y="445" text-anchor="middle" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="12">adversarial fine-tuning</text>
+<text x="40" y="535" fill="#a5b4c8" font-family="Arial,sans-serif" font-size="14">B and C are evaluated independently against A. Neither is required for V1.</text>
+</svg>
